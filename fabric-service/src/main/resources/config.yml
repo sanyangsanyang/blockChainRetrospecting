@@ -1,0 +1,7 @@
+invokeFileAddress : chaincode-invoker/invoke.js
+queryFileAddress : chaincode-invoker/query.js
+registerFileAddress : chaincode-invoker/registerUser.js
+userFileAddress : chaincode-invoker/hfc-key-store
+startFileAddress : scripts/startServer.sh
+stopFileAddress : scripts/stopServer.sh
+restartFileAddress : scripts/restartServer.sh
