@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+business-client/src/main/resources/static/
+business-client/src/main/resources/templates/
+chaincode-invoker/node_modules/dtrace-provider/src/build/Release/obj.target/
+fabric-service/src/main/resources/META-INF/
+fabric-service/src/main/resources/static/
+fabric-service/src/main/resources/templates/
+service-registry/src/main/resources/static/
+service-registry/src/main/resources/templates/
