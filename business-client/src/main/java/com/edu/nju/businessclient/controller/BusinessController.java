@@ -19,9 +19,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/business")
 public class BusinessController {
     
-    @Autowired
+    
     private final BusinessFeignClient businessFeignClient;
     
+    @Autowired
     public BusinessController(BusinessFeignClient businessFeignClient) {
         this.businessFeignClient = businessFeignClient;
     }
